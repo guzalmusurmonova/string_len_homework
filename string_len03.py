@@ -6,5 +6,10 @@ def main(a,b):
         b: string
     Returns:
         True or False
-    """
-    return
+    """ 
+    if len(a)==len(b):
+        s="True"
+    else:
+        s="False"
+    return s 
+print(main('code','exam'))
