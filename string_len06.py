@@ -7,4 +7,8 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    z=s1
+    if  z<s2:
+            z==s2
+    return z
+print(main('code','python'))
